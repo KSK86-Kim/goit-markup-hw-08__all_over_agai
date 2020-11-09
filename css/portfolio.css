@@ -597,10 +597,16 @@ img {
 
 .picture__text {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.556;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+@media screen and (min-width: 350px) {
+  .picture__text {
+    font-size: 18px;
+  }
 }
 
 .picture__photo {
@@ -790,6 +796,7 @@ img {
   height: 50px;
   padding: 15px 16px;
   width: 100%;
+  color: #ffffff;
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);

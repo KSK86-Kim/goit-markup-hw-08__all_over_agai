@@ -115,12 +115,16 @@
   }
   &__text {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.556;
 
     letter-spacing: 0.03em;
 
     color: $primary-white-color;
+
+    @media screen and(min-width:350px) {
+      font-size: 18px;
+    }
   }
 
   &__photo {
